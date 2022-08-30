@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'GT Eesti Display Trial Rg';
+    src: url('../font/subset-GTEestiDisplayTrial-Rg.woff2') format('woff2'),
+        url('../font/subset-GTEestiDisplayTrial-Rg.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}

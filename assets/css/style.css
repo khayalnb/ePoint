@@ -1,5 +1,78 @@
-*, *::after, *::before {
+*,
+*::after,
+*::before {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+body {
+  font-family: GT Eesti Display Trial Rg;
+  font-weight: 400;
+  font-style: normal;
+}
+
+header {
+  background-color: #FFFFFF;
+  height: 72px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+header .logo-box {
+  width: 112px;
+  display: inline-block;
+}
+header .logo-box img {
+  width: 112px;
+}
+header .nav-box {
+  display: inline-block;
+}
+header .nav-box ul {
+  display: flex;
+  margin-bottom: 0px;
+}
+header .nav-box ul li {
+  list-style: none;
+  margin: 0px 15px 0px 0px;
+}
+header .nav-box ul li a {
+  text-decoration: none;
+  outline: none;
+  color: rgb(0, 0, 0);
+}
+header .nav-box ul li a:hover {
+  color: #B83B8C;
+}
+header .login-btn {
+  text-decoration: none;
+  color: #B83B8C;
+  border: 2px solid #B83B8C;
+  border-radius: 21px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1;
+  padding: 12px 25px;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  margin-right: 1rem;
+}
+header .login-btn:hover {
+  color: #FFFFFF;
+  background-color: #B83B8C;
+}
+header .register-btn {
+  color: #FFFFFF;
+  background-color: #B83B8C;
+  text-decoration: none;
+  outline: none;
+  padding: 12px 25px;
+  border-radius: 21px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+header .register-btn:hover {
+  background-color: #8d1162;
 }
