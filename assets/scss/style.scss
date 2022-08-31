@@ -9,6 +9,9 @@
 $color-white: #FFFFFF;
 $color-purple: #B83B8C;
 $color-black: rgb(0, 0, 0);
+$container-padding: 80px 0px;
+
+
 
 body {
     font-family: GT Eesti Display Trial Rg;
@@ -170,10 +173,12 @@ header {
         }
     }
 }
-.padding-l-r{
+
+.padding-l-r {
     padding-left: 4.1rem;
     padding-right: 4.1rem;
 }
+
 .e-pont-main-content {
     width: 100%;
     background-color: #B83B8C;
@@ -238,6 +243,7 @@ header {
         li {
             display: flex;
             align-items: center;
+
             i {
                 width: 24px;
                 height: 24px;
@@ -262,4 +268,35 @@ header {
 
         }
     }
+}
+
+.advantages-section {
+    padding: $container-padding;
+
+    .advantages-card {
+        margin-top: 2rem;
+
+        .img-box {
+            width: 60px;
+            height: 60px;
+            background-color: #b83b8c;
+            font-size: 22px;
+            border-radius: 16px;
+            color: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 0 18px;
+        }
+
+        p {
+            color: #626568;
+            font-size: 15px;
+            font-weight: 300;
+            line-height: 1.47;
+        }
+    }
+}
+.partners-section{
+    background-color:#FCF7FB ;
 }

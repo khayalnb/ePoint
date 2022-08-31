@@ -223,3 +223,32 @@ header .register-btn:hover {
 .e-pont-main-content .panel-img img {
   width: 467px;
 }
+
+.advantages-section {
+  padding: 80px 0px;
+}
+.advantages-section .advantages-card {
+  margin-top: 2rem;
+}
+.advantages-section .advantages-card .img-box {
+  width: 60px;
+  height: 60px;
+  background-color: #b83b8c;
+  font-size: 22px;
+  border-radius: 16px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 0 18px;
+}
+.advantages-section .advantages-card p {
+  color: #626568;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 1.47;
+}
+
+.partners-section {
+  background-color: #FCF7FB;
+}/*# sourceMappingURL=style.css.map */
